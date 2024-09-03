@@ -3,13 +3,13 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6735160001:AAH1ubvRV1MU1s8E9uvzJetBjguYnQBu2bA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7445415339:AAFh72ocK3Wefe2NxCJpwSG2NTpHG5qZU3I")
 APP_ID = int(os.environ.get("APP_ID", "24466877"))
 API_HASH = os.environ.get("API_HASH", "403596c01ecce435211d06eda69e9ad6")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002138501086"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6303569936"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7321928194"))
 PORT = os.environ.get("PORT", "8050")
 
 #Database 
@@ -18,8 +18,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "nonvegurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "8fc5d7171c69b1ae98fee9e5f057d86a834c5ea3")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "runurl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "0f018a7ba3958b3482773c597e823ffe3efc5a40")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 36000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_Download_7x/35") 
@@ -54,7 +54,8 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6303569936)
+ADMINS.append(7321928194)
+ADMINS.append(5857939104)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
